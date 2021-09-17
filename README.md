@@ -40,3 +40,13 @@ Hello, World
 root@079e99bffa85:/app/src/main/java# exit
 exit
 ```
+
+# Project Generated with Maven
+```
+mvn archetype:generate \
+  -DgroupId=com.effective-programmer.java-repl \
+  -DartifactId=java-repl \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DarchetypeVersion=1.4 \
+  -DinteractiveMode=false
+```

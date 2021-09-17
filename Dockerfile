@@ -2,10 +2,10 @@
 
 FROM ubuntu:latest
 
-RUN apt-get update 
-
-RUN apt install -y \
-    default-jdk
+RUN apt-get update \
+&&  apt install -y \
+    default-jdk \
+    maven
 
 WORKDIR /app
 

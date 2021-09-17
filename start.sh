@@ -10,5 +10,5 @@ fi
 
 docker exec -it `docker ps -q -f name=java-repl` bash
 
-docker stop java-repl
+docker stop -t 0 java-repl >/dev/null 2>&1
 
