@@ -17,7 +17,7 @@ OpenJDK 64-Bit Server VM (build 11.0.11+9-Ubuntu-0ubuntu2.20.04, mixed mode, sha
 
 # Project Generated with Maven
 ```
-mvn archetype:generate \
+root@079e99bffa85:/app# mvn archetype:generate \
  -DgroupId=com.javarepl.app \
  -DartifactId=java-repl \
  -DarchetypeArtifactId=maven-archetype-quickstart \
@@ -27,9 +27,9 @@ mvn archetype:generate \
 
 # Build
 ```
-%cd java-repl
+root@079e99bffa85:/app# cd java-repl
 
-% mvn package
+root@079e99bffa85:/app/java-repl# mvn package
 
-% java -cp target/java-repl-1.0-SNAPSHOT.jar com.javarepl.app.App
+root@079e99bffa85:/app/java-repl# java -cp target/java-repl-1.0-SNAPSHOT.jar com.javarepl.app.App
 Hello World!
