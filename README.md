@@ -25,7 +25,7 @@ root@079e99bffa85:/app# mvn archetype:generate \
  -DinteractiveMode=false
 ```
 
-# Build
+# Build, Run Test
 ```
 root@079e99bffa85:/app# cd java-repl
 
@@ -33,3 +33,5 @@ root@079e99bffa85:/app/java-repl# mvn package
 
 root@079e99bffa85:/app/java-repl# java -cp target/java-repl-1.0-SNAPSHOT.jar com.javarepl.app.App
 Hello World!
+
+root@079e99bffa85:/app/java-repl# mvn test

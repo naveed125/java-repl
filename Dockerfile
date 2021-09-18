@@ -9,6 +9,6 @@ RUN apt-get update \
 
 WORKDIR /app
 
-COPY src ./src
+COPY . /app
 
 CMD bash
